@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/userRegister-app/static/css/main.395102ae.css",
+    "main.js": "/userRegister-app/static/js/main.d1dac52d.js",
+    "static/js/787.c57a00b7.chunk.js": "/userRegister-app/static/js/787.c57a00b7.chunk.js",
+    "index.html": "/userRegister-app/index.html",
+    "main.395102ae.css.map": "/userRegister-app/static/css/main.395102ae.css.map",
+    "main.d1dac52d.js.map": "/userRegister-app/static/js/main.d1dac52d.js.map",
+    "787.c57a00b7.chunk.js.map": "/userRegister-app/static/js/787.c57a00b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.395102ae.css",
+    "static/js/main.d1dac52d.js"
+  ]
+}
