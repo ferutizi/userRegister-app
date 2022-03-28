@@ -1,6 +1,8 @@
+import './Button.css'
+
 const Button = ({children}) => {
     return(
-        <button type="submit">
+        <button className='button' type="submit">
             {children}
         </button>
     )
