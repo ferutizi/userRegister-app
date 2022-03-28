@@ -3,6 +3,8 @@ import { useState } from 'react'
 import useFormulario from './hooks/useFormulario';
 import Input from './components/Input';
 import Button from './components/Button';
+import Container from './components/Container';
+import Card from './components/Card';
 
 function App() {
 
@@ -24,8 +26,8 @@ function App() {
   }
 
   return (
-    <div>
-      <div>
+    <Container>
+      <Card>
         <form onSubmit={submit} >
           <Input
           name='name'
@@ -47,15 +49,15 @@ function App() {
           />
           <Button>Enviar</Button>
         </form>
-      </div>
-      <div>
+      </Card>
+      <Card>
         <ul>
           {usuarios.map(x =>
-            <li key={x.email}>{`${x.name} ${x.lastname}: ${x.email}`}</li>
+            <li key={x.email}>{`${x.name} ${x.surname}: ${x.email}`}</li>
             )}
         </ul>
-      </div>
-    </div>
+      </Card>
+    </Container>
   );
 }
 
